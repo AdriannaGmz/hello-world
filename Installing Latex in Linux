@@ -1,0 +1,82 @@
+///////////////////////////////////
+NUNCA INSTALAR LATEX-CJK!!!!!!
+Without latex-cjk-common!!!!!!
+///////////////////////////////////
+-----Ahora agregar ésto-----
+
+---y quito esto y vuelvo a poner contenido---
+no hacer caso de las dos líneas escritas...
+
+
+
+CJK es el paquete para letras chinas, japonesas y K algo.. raro... no instalar! son muy problemáticas!!!
+
+El comando completo:  :(
+	$ 	sudo apt-get install texlive-full
+
+pero ésto instala también los indeseados CJK...
+en sí, todo lo que instala es:
+
+The following extra packages will be installed:
+  cm-super cm-super-minimal context dvipng feynmf fonts-lmodern fonts-texgyre fragmaster latex-beamer latex-cjk-all latex-cjk-chinese
+  latex-cjk-chinese-arphic-bkai00mp latex-cjk-chinese-arphic-bsmi00lp latex-cjk-chinese-arphic-gbsn00lp latex-cjk-chinese-arphic-gkai00mp
+  latex-cjk-common latex-cjk-japanese latex-cjk-japanese-wadalab latex-cjk-korean latex-cjk-thai latex-sanskrit latex-xcolor latexmk lmodern
+  m-tx musixtex pgf pmx preview-latex-style prosper purifyeps tex-gyre tex4ht tex4ht-common texlive-bibtex-extra texlive-extra-utils
+  texlive-fonts-extra texlive-fonts-extra-doc texlive-fonts-recommended texlive-fonts-recommended-doc texlive-formats-extra texlive-games
+  texlive-generic-extra texlive-generic-recommended texlive-humanities texlive-humanities-doc texlive-lang-african texlive-lang-arabic
+  texlive-lang-cjk texlive-lang-cyrillic texlive-lang-czechslovak texlive-lang-english texlive-lang-european texlive-lang-french
+  texlive-lang-german texlive-lang-greek texlive-lang-indic texlive-lang-italian texlive-lang-other texlive-lang-polish texlive-lang-portuguese
+  texlive-lang-spanish texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended-doc texlive-luatex
+  texlive-math-extra texlive-metapost texlive-metapost-doc texlive-music texlive-omega texlive-pictures texlive-pictures-doc texlive-plain-extra
+  texlive-pstricks texlive-pstricks-doc texlive-publishers texlive-publishers-doc texlive-science texlive-science-doc texlive-xetex tipa
+Suggested packages:
+  perl-tk fontforge context-nonfree context-doc-nonfree hbf-cns40-b5 hbf-jfs56 fonts-arphic-bkai00mp fonts-arphic-bsmi00lp fonts-arphic-gbsn00lp
+  fonts-arphic-gkai00mp hbf-kanji48 gs-common imagemagick netpbm libxml2-utils xmltex passivetex jadetex latex-fonts-sipa-arundina
+  python-pygments libtcltk-ruby dot2tex
+Recommended packages:
+  fonts-gfs-bodoni-classic fonts-gfs-didot-classic fonts-gfs-gazis fonts-gfs-theokritos fonts-freefont context-modules ko.tex-extra-hlfont
+  musixlyr swath wish ps2eps
+The following NEW packages will be installed:
+  cm-super cm-super-minimal context dvipng feynmf fonts-lmodern fonts-texgyre fragmaster latex-beamer latex-cjk-all latex-cjk-chinese
+  latex-cjk-chinese-arphic-bkai00mp latex-cjk-chinese-arphic-bsmi00lp latex-cjk-chinese-arphic-gbsn00lp latex-cjk-chinese-arphic-gkai00mp
+  latex-cjk-common latex-cjk-japanese latex-cjk-japanese-wadalab latex-cjk-korean latex-cjk-thai latex-sanskrit latex-xcolor latexmk lmodern
+  m-tx musixtex pgf pmx preview-latex-style prosper purifyeps tex-gyre tex4ht tex4ht-common texlive-bibtex-extra texlive-extra-utils
+  texlive-fonts-extra texlive-fonts-extra-doc texlive-fonts-recommended texlive-fonts-recommended-doc texlive-formats-extra texlive-full
+  texlive-games texlive-generic-extra texlive-generic-recommended texlive-humanities texlive-humanities-doc texlive-lang-african
+  texlive-lang-arabic texlive-lang-cjk texlive-lang-cyrillic texlive-lang-czechslovak texlive-lang-english texlive-lang-european
+  texlive-lang-french texlive-lang-german texlive-lang-greek texlive-lang-indic texlive-lang-italian texlive-lang-other texlive-lang-polish
+  texlive-lang-portuguese texlive-lang-spanish texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended-doc
+  texlive-luatex texlive-math-extra texlive-metapost texlive-metapost-doc texlive-music texlive-omega texlive-pictures texlive-pictures-doc
+  texlive-plain-extra texlive-pstricks texlive-pstricks-doc texlive-publishers texlive-publishers-doc texlive-science texlive-science-doc
+  texlive-xetex tipa
+
+
+
+  Entonces, para instalar varios paquetes (sin incluir los CJK):
+
+  $ sudo apt-get install gedit-latex-plugin texlive-fonts-recommended latex-beamer texpower texlive-pictures texlive-latex-extra texpower-examples imagemagick 
+  bla bla...
+
+  instalar pocos paquetes! y nunca el CJK!!
+
+  $ sudo apt-get install cm-super cm-super-minimal context dvipng feynmf fonts-lmodern fonts-texgyre fragmaster latex-beamer latex-sanskrit latex-xcolor latexmk lmodern m-tx musixtex pgf pmx preview-latex-style prosper purifyeps tex-gyre tex4ht tex4ht-common texlive-bibtex-extra texlive-extra-utils
+  texlive-fonts-extra texlive-fonts-extra-doc texlive-fonts-recommended texlive-fonts-recommended-doc texlive-formats-extra texlive-games
+  texlive-generic-extra texlive-generic-recommended texlive-humanities texlive-humanities-doc texlive-lang-african texlive-lang-arabic
+  texlive-lang-cyrillic texlive-lang-czechslovak texlive-lang-english texlive-lang-european texlive-lang-french
+  texlive-lang-german texlive-lang-greek texlive-lang-indic texlive-lang-italian texlive-lang-other texlive-lang-polish texlive-lang-portuguese
+  texlive-lang-spanish texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended-doc texlive-luatex
+  texlive-math-extra texlive-metapost texlive-metapost-doc texlive-music texlive-omega texlive-pictures texlive-pictures-doc texlive-plain-extra
+  texlive-pstricks texlive-pstricks-doc texlive-publishers texlive-publishers-doc texlive-science texlive-science-doc texlive-xetex tipa
+  perl-tk fontforge context-nonfree context-doc-nonfree hbf-cns40-b5 hbf-jfs56 fonts-arphic-bkai00mp fonts-arphic-bsmi00lp fonts-arphic-gbsn00lp
+  fonts-arphic-gkai00mp hbf-kanji48 gs-common imagemagick netpbm libxml2-utils xmltex passivetex jadetex latex-fonts-sipa-arundina
+  python-pygments libtcltk-ruby dot2tex
+  fonts-gfs-bodoni-classic fonts-gfs-didot-classic fonts-gfs-gazis fonts-gfs-theokritos fonts-freefont context-modules ko.tex-extra-hlfont
+  musixlyr swath wish ps2eps
+  cm-super cm-super-minimal context dvipng feynmf fonts-lmodern fonts-texgyre fragmaster latex-beamer latex-sanskrit latex-xcolor latexmk lmodern   m-tx musixtex pgf pmx preview-latex-style prosper purifyeps tex-gyre tex4ht tex4ht-common texlive-bibtex-extra texlive-extra-utils   texlive-fonts-extra texlive-fonts-extra-doc texlive-fonts-recommended texlive-fonts-recommended-doc texlive-formats-extra texlive-full
+  texlive-games texlive-generic-extra texlive-generic-recommended texlive-humanities texlive-humanities-doc texlive-lang-african
+  texlive-lang-arabic texlive-lang-cyrillic texlive-lang-czechslovak texlive-lang-english texlive-lang-european
+  texlive-lang-french texlive-lang-german texlive-lang-greek texlive-lang-indic texlive-lang-italian texlive-lang-other texlive-lang-polish
+  texlive-lang-portuguese texlive-lang-spanish texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended-doc
+  texlive-luatex texlive-math-extra texlive-metapost texlive-metapost-doc texlive-music texlive-omega texlive-pictures texlive-pictures-doc
+  texlive-plain-extra texlive-pstricks texlive-pstricks-doc texlive-publishers texlive-publishers-doc texlive-science texlive-science-doc
+  texlive-xetex tipa
